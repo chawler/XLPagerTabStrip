@@ -86,7 +86,7 @@ open class PagerTabStripViewController: UIViewController, UIScrollViewDelegate {
     override open func viewDidLoad() {
         super.viewDidLoad()
         let conteinerViewAux = containerView ?? {
-            let containerView = UIScrollView(frame: CGRect(x: 0, y: 0, width: view.bounds.width, height: view.bounds.height))
+            let containerView = CustomScrollView(frame: CGRect(x: 0, y: 0, width: view.bounds.width, height: view.bounds.height))
             containerView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
             return containerView
         }()

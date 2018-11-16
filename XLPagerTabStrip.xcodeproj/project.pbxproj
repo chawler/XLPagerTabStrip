@@ -15,6 +15,7 @@
 		28E098C01C5003130083B788 /* SwipeDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E098BF1C5003130083B788 /* SwipeDirection.swift */; };
 		28F828811C494B2C00330CF4 /* XLPagerTabStrip.h in Headers */ = {isa = PBXBuildFile; fileRef = 28F828801C494B2C00330CF4 /* XLPagerTabStrip.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		28F828881C494B2C00330CF4 /* XLPagerTabStrip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F8287D1C494B2C00330CF4 /* XLPagerTabStrip.framework */; };
+		4A96CFE4219E63C6005FDC03 /* CustomScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A96CFE3219E63C6005FDC03 /* CustomScrollView.swift */; };
 		CB0986C41C51391600DF7087 /* ButtonBarPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0986C31C51391600DF7087 /* ButtonBarPagerTabStripViewController.swift */; };
 		CB0986C61C51395E00DF7087 /* ButtonBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0986C51C51395E00DF7087 /* ButtonBarView.swift */; };
 		CB0986C81C5158A000DF7087 /* ButtonBarViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0986C71C5158A000DF7087 /* ButtonBarViewCell.swift */; };
@@ -50,7 +51,8 @@
 		28F828821C494B2C00330CF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28F828871C494B2C00330CF4 /* XLPagerTabStripTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XLPagerTabStripTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28F8288E1C494B2C00330CF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = Tests/Info.plist; sourceTree = "<group>"; };
-		28F8289B1C494BF100330CF4 /* Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Playground.playground; sourceTree = "<group>"; };
+		28F8289B1C494BF100330CF4 /* Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Playground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		4A96CFE3219E63C6005FDC03 /* CustomScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomScrollView.swift; sourceTree = "<group>"; };
 		CB0986C31C51391600DF7087 /* ButtonBarPagerTabStripViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonBarPagerTabStripViewController.swift; sourceTree = "<group>"; };
 		CB0986C51C51395E00DF7087 /* ButtonBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonBarView.swift; sourceTree = "<group>"; };
 		CB0986C71C5158A000DF7087 /* ButtonBarViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonBarViewCell.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 				CBA0A1FB1C502DA300C5748C /* BarView.swift */,
 				CB0986C51C51395E00DF7087 /* ButtonBarView.swift */,
 				CB0986C71C5158A000DF7087 /* ButtonBarViewCell.swift */,
+				4A96CFE3219E63C6005FDC03 /* CustomScrollView.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -312,6 +315,7 @@
 				28E098C01C5003130083B788 /* SwipeDirection.swift in Sources */,
 				CB0986C81C5158A000DF7087 /* ButtonBarViewCell.swift in Sources */,
 				CB0986C41C51391600DF7087 /* ButtonBarPagerTabStripViewController.swift in Sources */,
+				4A96CFE4219E63C6005FDC03 /* CustomScrollView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
